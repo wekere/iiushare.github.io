@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <title>Feedback</title>
     <link rel="stylesheet" href="/styles/feedback.css">
+    <script>
+    function redirect() {
+      window.location.href="/pages/feedback_submitted.html";
+    }
+    </script>
     <div id="feedback">
       <h1>FEEDBACK</h1>
     </div>
@@ -24,14 +29,15 @@
     </div>
     <div id="forms">
       <form>
-        <label for="name">Name: </label><br><br>
+        <label for="name">Name: </label><br>
         <input type="text" name="name" id="name"><br><br>
-        <label for="email">Email address: </label><br><br>
+        <label for="email">Email address: </label><br>
         <input type="email" name="email" id="email"><br><br>
-        <label for="subject">Subject: </label><br><br>
+        <label for="subject">Subject: </label><br>
         <input type="text" name="subject" id="subject"><br><br>
-        <label for="message">Message: </label><br><br>
-        <textarea name="message" rows="8" cols="75"></textarea>
+        <label for="message">Message: </label><br>
+        <textarea name="message" rows="8"></textarea><br><br>
+        <button id="submit" onclick="redirect()">Submit</button>
       </form>
     </div>
 </html>
