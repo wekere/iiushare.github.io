@@ -12,7 +12,7 @@
   margin-left: 30px;
 }
 
-#phone::before  {
+#info #phone::before  {
   font-family: "Font Awesome 5 Free";
   content: "\f879";
   font-weight: 900;
