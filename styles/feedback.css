@@ -13,9 +13,9 @@
 }
 
 #phone::before  {
-  font-family: "FontAwesome \5 Free";
-  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
   content: "\f879";
+  font-weight: 900;
 }
 
 #forms  {
