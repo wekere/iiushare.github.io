@@ -20,7 +20,6 @@
 #phone::before  {
   font-family: FontAwesome;
   content: "\f879";
-  position: absolute;
 }
 
 #forms  {
