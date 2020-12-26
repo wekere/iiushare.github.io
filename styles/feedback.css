@@ -13,9 +13,9 @@
   margin-left: 30px;
 }
 
-.fas fa-phone-alt::after  {
+/* .fas fa-phone-alt::after  {
   content: "+609 955 9550";
-}
+} */
 
 #phone::before  {
   content: "\f879";
