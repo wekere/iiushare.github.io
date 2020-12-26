@@ -12,6 +12,15 @@ head  {
   margin-left: 30px;
 }
 
+#phone{
+  display: flex;
+  position: relative;
+}
+
+#icon::after  {
+  content: "+603 5281 581";
+}
+
 #forms  {
   float: right;
   margin-right: 100px;
