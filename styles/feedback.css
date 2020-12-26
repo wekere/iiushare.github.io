@@ -12,16 +12,9 @@
   margin-left: 30px;
 }
 
-#phone{
-  display: flex;
-  position: relative;
+.fas fa-phone-alt::after {
+  content: "+09 955 9550";
 }
-
-.icon::after  {
-  content: "+603 5281 581";
-  color: black;
-}
-
 #forms  {
   float: right;
   margin-right: 100px;
