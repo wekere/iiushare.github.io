@@ -19,6 +19,13 @@
   padding-right: 10px;
 }
 
+#info #email::before  {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0e0";
+  font-weight: 900;
+  padding-right: 10px;
+}
+
 #forms  {
   float: right;
   margin-right: 100px;
