@@ -17,7 +17,7 @@ head  {
   position: relative;
 }
 
-#icon::after  {
+.icon::after  {
   content: "+603 5281 581";
 }
 
