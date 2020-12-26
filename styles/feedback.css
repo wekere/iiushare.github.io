@@ -19,6 +19,7 @@ head  {
 
 .icon::after  {
   content: "+603 5281 581";
+  color: black;
 }
 
 #forms  {
