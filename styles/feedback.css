@@ -15,6 +15,7 @@
 
 #phone::before  {
   font-family: "FontAwesome";
+  font-weight: 900;
   content: "\f879";
 }
 
