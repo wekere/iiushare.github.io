@@ -28,7 +28,8 @@
 
 #forms  {
   float: right;
-  margin-right: 100px;
+  margin: 100px;
+  padding: 50px;
   text-align: left
 }
 
