@@ -10,6 +10,7 @@
 #info {
   float: left;
   margin-left: 50px;
+  padding: 15px;
 }
 
 #info #phone::before  {
