@@ -25,9 +25,9 @@
   font-weight: 900;
   padding-right: 10px;
 }
-input[type=text], input[type=email] {
+/* input[type=text], input[type=email] {
   width: 200px;
-}
+} */
 
 #forms  {
   float: right;
