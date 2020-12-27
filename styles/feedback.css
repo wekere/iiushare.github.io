@@ -27,7 +27,7 @@
   padding-right: 10px;
 } */
 
-input[type=text], input[type=email] {
+input[type=text], input[type=email] ,textarea {
   width: 100%;
 }
 
