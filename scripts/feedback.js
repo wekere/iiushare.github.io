@@ -10,5 +10,6 @@ function validate()  {
   }
   else {
     location.assign("/pages/thank-you.html")
+    return true;
   }
 }
