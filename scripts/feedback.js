@@ -1,7 +1,10 @@
 
 function validate()  {
-  var x = document.forms["feedback_form"]["name"]["email"]["subject"]["message"].value;
-  if(x == "") {
+  var a = document.forms["feedback_form"]["name"].value;
+  var b = document.forms["feedback_form"]["email"].value;
+  var c = document.forms["feedback_form"]["subject"].value;
+  var d = document.forms["feedback_form"]["message"].value;
+  if(a == "" || b == "" || c == "" || d == "") {
     alert("All text boxes cannot be empty. ");
     return false;
   }
