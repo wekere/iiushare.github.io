@@ -12,6 +12,6 @@ function validate()  {
     return false;
   }
   else {
-    location.assign("thank_you.html");
+    location.href("thank_you.html");
   }
 }
