@@ -8,4 +8,7 @@ function validate()  {
     alert("All text boxes cannot be empty. ");
     return false;
   }
+  else {
+    location.assign("/pages/thank-you.html")
+  }
 }
