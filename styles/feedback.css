@@ -58,6 +58,10 @@ a:active {
   padding: 15px;
 }
 
+.fas fa-phone-alt, .fas fa-envelope {
+  margin: 5px;
+}
+
 input[type=text], input[type=email] ,textarea {
   width: 100%;
 }
