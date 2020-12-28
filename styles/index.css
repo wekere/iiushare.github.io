@@ -69,7 +69,7 @@ body{
 
 .searchbox input{
   width: 75%;
-  background-image: url('magnifying-glass.png');
+  background-image: url('/images/magnifying-glass.png');
   background-repeat: no-repeat;
   background-position: 3px;
   padding-left: 23px;
