@@ -58,4 +58,5 @@ table {
 img {
   padding: 15;
   float: left;
+  position: fixed;
 }
