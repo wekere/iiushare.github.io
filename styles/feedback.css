@@ -1,3 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+#header img[src="Logo.png"] {
+  padding: 0;
+}
+#header {
+  background-color: #9900FF;
+  position: fixed;
+  width: 100%;
+}
+
+#nav {
+  position: fixed;
+  top: 5;
+  right: 10;
+  text-color: white;
+  font-size: 14;
+  word-spacing: 5px;
+}
+
 #feedback  {
   text-align: center;
   background-color: #DDDDDD;
@@ -12,20 +36,6 @@
   margin-left: 100px;
   padding: 15px;
 }
-
-/* #info #phone::before  {
-  font-family: "Font Awesome 5 Free";
-  content: "\f879";
-  font-weight: 900;
-  padding-right: 10px;
-} */
-
-/* #info #email::before  {
-  font-family: "Font Awesome 5 Free";
-  content: "\f0e0";
-  font-weight: 900;
-  padding-right: 10px;
-} */
 
 input[type=text], input[type=email] ,textarea {
   width: 100%;
