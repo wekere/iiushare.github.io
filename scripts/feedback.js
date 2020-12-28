@@ -9,7 +9,7 @@ function validate()  {
     return false;
   }
   else {
-    location.assign("/pages/thank-you.html");
+    location.assign("thank-you.html");
     return true;
   }
 }
