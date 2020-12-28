@@ -1,10 +1,54 @@
-#feedback, #thankyou, #button  {
-  text-align: center;
-  font-family: "Trebuchet MS", sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
 }
 
-#feedback {
-  background-color: #DDDDDD;
+#header img[src="/images/Logo.png"] {
+  padding: 0;
+}
+
+#header {
+  overflow: hidden;
+  background-color: #9900FF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#nav {
+  float: right;
+  display: block;
+  top: 5;
+  right: 10;
+  text-color: white;
+  font-size: 14;
+  word-spacing: 5px;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  border-left: solid 1px #fff;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#feedback  {
+  text-align: center;
+  background: #DDDDDD;
+  margin-top: 36px;
+  top: 28;
+  z-index: 1;
+}
+
+#feedback, #thankyou, #button  {
+  text-align: center;
 }
 
 #button {
