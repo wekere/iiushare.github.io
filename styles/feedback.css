@@ -9,13 +9,16 @@
 }
 
 #header {
+  overflow: hidden;
   background-color: #9900FF;
   position: fixed;
+  top: 0;
   width: 100%;
 }
 
 #nav {
-  position: fixed;
+  float: right;
+  display: block;
   top: 5;
   right: 10;
   text-color: white;
