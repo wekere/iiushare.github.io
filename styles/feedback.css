@@ -4,7 +4,7 @@
   font-family: Arial;
 }
 
-#header img[src="Logo.png"] {
+#header img[src="/images/Logo.png"] {
   padding: 0;
 }
 
