@@ -18,10 +18,10 @@
 
 function validate() {
   if (window.confirm("Click okay to continue. ")) {
-    alert('message')
+    alert("Feedback submitted. ")
     window.location = "thank_you.html"
   }
   else {
-    die();
+    return;
   }
 }
