@@ -64,6 +64,7 @@ a:active {
 
 input[type=text], input[type=email] ,textarea {
   width: 100%;
+  height: auto;
 }
 
 #forms  {
