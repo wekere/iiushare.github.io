@@ -39,9 +39,9 @@ a:active {
 #feedback  {
   text-align: center;
   background: #DDDDDD;
-  padding: 20;
+  /* padding: 20;
   position: relative;
-  top: 28;
+  top: 28; */
 }
 
 #greetings {
