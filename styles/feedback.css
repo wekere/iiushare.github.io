@@ -39,12 +39,12 @@ a:active {
 #feedback  {
   text-align: center;
   background: #DDDDDD;
-  margin-top: auto;
+  margin-top: 36px;
 }
 
 #greetings {
   text-align: center;
-  margin-top: 72px;
+  margin-top: auto;
 }
 
 #info {
