@@ -62,3 +62,7 @@ img {
   padding: 11;
   float: left;
 }
+
+.btn {
+  position: right;
+}
