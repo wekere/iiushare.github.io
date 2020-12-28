@@ -1,10 +1,15 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$(document).ready(function()
-{
-    $("#material1").fadeIn(2000);
-    $("#material2").fadeIn(2500);
-    $("#material3").fadeIn(3000);
-    $("#material4").fadeIn(3500);
-  });
-</script>
+<style>
+.btn {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 1}
+</style>
