@@ -5,11 +5,11 @@ function validate()  {
   var c = document.forms["feedback_form"]["subject"].value;
   var d = document.forms["feedback_form"]["message"].value;
   if(a == "" || b == "" || c == "" || d == "") {
-    alert("All text boxes cannot be empty. ");
+    alert("Every text box must be filled. ");
     return false;
   }
   else {
-    location.assign("/pages/thank-you.html")
+    location.assign("/pages/thank-you.html");
     return true;
   }
 }
