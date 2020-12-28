@@ -11,6 +11,7 @@
   background-color: #9900FF;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 #nav {
@@ -20,6 +21,7 @@
   text-color: white;
   font-size: 14;
   word-spacing: 5px;
+  z-index: 2;
 }
 
 a:link {
@@ -41,6 +43,7 @@ a:active {
   padding: 20;
   position: relative;
   top: 28;
+  z-index: 1;
 }
 
 table {
