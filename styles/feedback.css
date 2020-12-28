@@ -43,6 +43,8 @@ a:active {
   text-align: center;
   background: #DDDDDD;
   margin-top: 36px;
+  top: 28;
+  z-index: 1;
 }
 
 #greetings {
